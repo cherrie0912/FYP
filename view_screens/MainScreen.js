@@ -3,8 +3,46 @@ import { View, Text, ImageBackground, Image, Dimensions, FlatList, TextInput, Sa
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import courses from '../const/courses';
+// import AllForumScreen from './AllForumScreen';
+// import JobList from './view_screens/JobList';
+// import ChooseChatScreen from './view_screens/ChooseChatScreen';
+// import SettingScreen from './view_screens/SettingScreen';
+
+
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
+
+
+
+// const Tab1Screen = () => {
+//     return (
+//       <AllForumScreen />
+//     );
+//   };
+  
+//   const Tab2Screen = () => {
+//     return (
+//        <ChooseChatScreen />
+//     );
+//   };
+  
+//   const Tab3Screen = () => {
+//     return (
+//       <MainScreen />
+//     );
+//   };
+  
+//   const Tab4Screen = () => {
+//     return (
+//       <JobList />
+//     );
+//   };
+
+//   const Tab5Screen = () => {
+//     return (
+//       <SettingScreen />
+//     );
+//   };
 
 const MainScreen = ({navigation}) => {
     const CourseCard = ({course}) => {
